@@ -1,0 +1,199 @@
+/*common resets to use*/
+
+/*box sizing reset*/
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*===== fonts =======*/
+
+li , p , li:visited , p:visited , li:active , p:active , li:hover , p:hover{
+  color: gray;
+  font-family: 'Alternate Gothic No 2', Arial, sans-serif;
+  font-size: 10px;
+}
+
+
+/*.nav a:visited, .nav a:active, .nav a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+.nav a:hover {
+  color: darkgray;
+}*/
+
+
+/*.wrap-left p:visited, .wrap-right p:active, .wrap-left p , .wrap-right p {
+  text-decoration: none;
+  color: darkgray;
+}
+
+.wrap-left p:hover , .wrap-right p:hover {
+  color: darkgray;
+}*/
+
+
+
+
+/*======= backgrownd ============*/
+
+
+body {
+ background-color: black;
+}
+
+#background-container {
+  display: flex;
+  background-image: url(images/mountain1.jpg);
+  width: 69%;
+  margin: auto;
+}
+
+/*======= Container white ======*/
+
+#container {
+  background-color: white;
+  width: 76%;
+  margin: auto;
+  position: relative;
+  top: 21px;
+  display: flex;
+  flex-wrap: wrap;
+  /*height: 730px;*/
+}
+
+
+/* ====/////=== header ===/////====*/
+
+.wrapper-header {
+  /*border: 1px solid black;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-left , .wrap-right , .wrap-right img , .wrap-left img, .wrap-right p , .wrap-left p {
+  /*border: 1px solid red;*/
+  flex: 1 100%;
+  float: left;
+}
+
+.wrap-right {
+  position: relative;
+}
+
+.wrap-right img, .wrap-right p{
+  /*border: 1px solid green;*/
+
+}
+
+
+/*===== header img ======*/
+
+.wrap-left img {
+  width: 19%;
+}
+
+.wrap-right img {
+  width: 8%;
+}
+
+/*===/////==== main & side-bar & Container ======///////====*/
+
+.wrapper-main {
+  /*border: 1px solid blue;*/
+  display: flex;
+  width: auto;
+}
+
+.side-bar {
+  /*border: 1px solid green;*/
+  width: auto;
+}
+
+.wrap-container {
+  /*border: 1px solid orange;*/
+  width: auto;
+}
+
+/*======== nav ========*/
+
+.nav {
+  /*border: 1px solid red;*/
+  color: gray;
+}
+
+.nav ul {
+  padding: 1px;
+}
+
+.nav li {
+  padding: 11px 0 0 0;
+}
+
+.nav a {
+  padding: 0 0 0 5px;
+}
+
+.guide {
+  padding: 0 0 15px 0;
+}
+
+
+/*======== containers =========*/
+
+.container {
+  /*border: 1px solid red;*/
+  margin: 1px;
+  height: auto;
+  width: auto;
+}
+
+/*======= boxes ========*/
+
+.box-one, .box-two , .box-three {
+  text-align: center;
+}
+
+img {
+  width: 86%
+}
+
+
+
+
+/*======================================*/
+/*cut off point for various size screens*/
+
+/*@media only screen and (min-width: 768px) {*/
+  /*reset*/
+
+  /*article*/
+  /*footer*/
+
+  /* ================= header ================ */
+
+  /*header ul {
+    display: flex;
+    justify-content: space-around;
+  }*/
+
+
+  /* ========= events ========== */
+
+  /*we use events because it is here where i want the images to be displayed horizontally instead of vertically*/
+/*
+  #events {
+    display: flex;
+  }
+
+}*/
